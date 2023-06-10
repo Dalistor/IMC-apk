@@ -41,7 +41,9 @@
             android:selectAllOnFocus="true"
             android:singleLine="true"
             android:textColor="#000000"
-            android:textColorHighlight="#000000" />
+            android:textColorHighlight="#000000"
+            android:textColorHint="#888888"
+            android:textColorLink="#000000" />
 
         <EditText
             android:id="@+id/height"
@@ -51,7 +53,11 @@
             android:hint="Altura"
             android:inputType="number|numberDecimal"
             android:selectAllOnFocus="true"
-            android:singleLine="true" />
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#888888"
+            android:textColorLink="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,12 +70,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="2dp"
-                android:text="Resultado:" />
+                android:text="Resultado:"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000" />
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="370dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/download" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="427dp"
+            android:layout_height="110dp"
             android:gravity="bottom"
             android:orientation="vertical">
 
@@ -80,7 +96,9 @@
                 android:backgroundTint="#584EB5"
                 android:onClick="mathIMC"
                 android:text="Calcular"
-                android:textColorHighlight="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorLink="#FFFFFF" />
 
         </LinearLayout>
 
